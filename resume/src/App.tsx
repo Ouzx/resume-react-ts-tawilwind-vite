@@ -1,3 +1,4 @@
+import BadgeList from "./components/BadgeList";
 import CircularBars from "./components/Circular/CircularBars";
 import DescriptionItems from "./components/DescriptionGroup/DescriptionItems";
 import ProgressBars from "./components/ProgressBar/ProgressBars";
@@ -8,17 +9,26 @@ function App() {
     <div className="h-3/4 bg-hero relative">
       <div className=" h-[34em] bg-hero-pattern bg-cover bg-left-bottom bg-no-repeat ">
         <div className="mx-auto lg:p-8 flex flex-col lg:flex-row justify-evenly items-start max-w-7xl">
-          <div className="p-5 hover:bg-white transition-colors delay-75 bg-[#c0e3e7] shrink-0 w-full lg:mr-2 lg:max-w-[18rem] shadow-2xl">
-            <img
-              className="my-5 h-48 w-48 rounded-full mx-auto"
-              src="https://certy.px-lab.com/designer/wp-content/uploads/sites/2/2017/05/certy_avatar-195x195.jpg"
-              alt="Profile-Picture"
-            />
-            <h1 className="font-bold text-center mb-3">OLA LOWE</h1>
-            <p className="text-center text-darkText mb-5">Creative Designer</p>
+          <div className="shrink-0 w-full lg:mr-2 lg:max-w-[18rem] ">
+            <div className="p-5 hover:bg-white transition-colors delay-75 bg-[#c0e3e7] shadow-2xl">
+              <img
+                className="my-5 h-48 w-48 rounded-full mx-auto"
+                src="https://certy.px-lab.com/designer/wp-content/uploads/sites/2/2017/05/certy_avatar-195x195.jpg"
+                alt="Profile-Picture"
+              />
+              <h1 className="font-bold text-center mb-3">OLA LOWE</h1>
+              <p className="text-center text-darkText mb-5">
+                Creative Designer
+              </p>
 
-            <SocialIcons />
+              <SocialIcons />
+            </div>
+
+            <div className="p-5 shadow-2xl bg-white lg:mt-3">
+              <BadgeList />
+            </div>
           </div>
+
           <div className="bg-white shrink w-full lg:max-w-[50rem] px-10 py-5">
             <div className="mb-7">
               <h1 className="font-black mb-12">{"HELLO, I'M OLA!"}</h1>
@@ -34,13 +44,12 @@ function App() {
             <div className="mb-7">
               <div className="mb-3 md:flex justify-evenly">
                 <DescriptionItems />
-                <CircularBars />
+                {/* <CircularBars /> */}
+                <ProgressBars />
               </div>
               <hr />
             </div>
-            <div>
-              <ProgressBars />
-            </div>
+            <div></div>
           </div>
         </div>
       </div>
