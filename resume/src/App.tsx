@@ -44,6 +44,7 @@ function App() {
             <div className="mb-7">
               <div className="mb-3 md:flex justify-evenly">
                 <DescriptionItems />
+                <hr className="mb-7 md:hidden" />
                 {/* <CircularBars /> */}
                 <ProgressBars />
               </div>

@@ -4,7 +4,7 @@ const BadgeList = () => {
   const tagStyle = "mr-1 mb-1";
   return (
     <div>
-      <h2 className="text-center font-bold mb-1">Tag Pool</h2>
+      <h2 className="text-center text-thinText font-bold mb-1">Tag Pool</h2>
       <hr className="mb-3" />
       <div className="flex flex-1 flex-wrap justify-center">
         <img
