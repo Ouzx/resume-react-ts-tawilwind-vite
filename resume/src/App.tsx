@@ -1,5 +1,6 @@
 import CircularBars from "./components/Circular/CircularBars";
 import DescriptionItems from "./components/DescriptionGroup/DescriptionItems";
+import ProgressBars from "./components/ProgressBar/ProgressBars";
 import SocialIcons from "./components/Social/SocialIcons";
 
 function App() {
@@ -30,11 +31,15 @@ function App() {
               </p>
               <hr />
             </div>
-            <div>
-              <div className="md:flex justify-evenly">
+            <div className="mb-7">
+              <div className="mb-3 md:flex justify-evenly">
                 <DescriptionItems />
                 <CircularBars />
               </div>
+              <hr />
+            </div>
+            <div>
+              <ProgressBars />
             </div>
           </div>
         </div>
