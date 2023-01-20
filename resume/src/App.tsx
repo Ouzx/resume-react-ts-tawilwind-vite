@@ -1,8 +1,10 @@
 import BadgeList from "./components/BadgeList";
-import CircularBars from "./components/Circular/CircularBars";
+// import CircularBars from "./components/Circular/CircularBars";
 import DescriptionItems from "./components/DescriptionGroup/DescriptionItems";
+import DownloadResume from "./components/Buttons/DownloadResume";
 import ProgressBars from "./components/ProgressBar/ProgressBars";
 import SocialIcons from "./components/Social/SocialIcons";
+import GithubRepo from "./components/Buttons/GithubRepo";
 
 function App() {
   return (
@@ -23,9 +25,14 @@ function App() {
 
               <SocialIcons />
             </div>
-
             <div className="p-5 shadow-2xl bg-white lg:mt-3">
               <BadgeList />
+            </div>
+            <div className="p-5 shadow-2xl bg-white lg:mt-3 flex flex-wrap justify-center items-center">
+              <DownloadResume />
+              <div className="lg:mt-3 lg:ml-0 ml-3">
+                <GithubRepo />
+              </div>
             </div>
           </div>
 
