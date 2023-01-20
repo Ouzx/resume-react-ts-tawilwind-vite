@@ -6,6 +6,7 @@ module.exports = {
       body: "Pacifico, sans-serif",
       display: "Pacifico, sans-serif",
     },
+
     extend: {
       backgroundImage: {
         "hero-pattern": "url('./hero-bg.svg')",
