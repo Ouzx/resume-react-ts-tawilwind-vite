@@ -23,4 +23,9 @@
   .bg-hero {
     background: linear-gradient(170deg, #21d3d6 30%, transparent 70%);
   }
+
+  .dotlist {
+    /* background: #000; */
+    translate: 0 1.5rem;
+  }
 }
