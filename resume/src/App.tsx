@@ -6,6 +6,7 @@ import ProgressBars from "./components/ProgressBar/ProgressBars";
 import SocialIcons from "./components/Social/SocialIcons";
 import GithubRepo from "./components/Buttons/GithubRepo";
 import Gallery from "./components/Gallery/Gallery";
+import Education from "./components/Education/Education";
 
 function App() {
   return (
@@ -58,7 +59,8 @@ function App() {
               </div>
               <hr />
             </div>
-            <Gallery />
+            {/* <Gallery /> */}
+            <Education />
           </div>
         </div>
       </div>
