@@ -8,6 +8,11 @@
     /* font-family: "Pacifico", cursive; */
   }
 
+  ::selection {
+    color: black;
+    background: #21d3d6;
+  }
+
   h1 {
     @apply text-2xl;
   }
