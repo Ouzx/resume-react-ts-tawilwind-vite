@@ -59,7 +59,7 @@ function App() {
               </div>
               <hr />
             </div>
-            {/* <Gallery /> */}
+            <Gallery />
             <Education />
           </div>
         </div>

@@ -14,8 +14,8 @@ const Item = (props: ItemProps) => {
       className={`bg-cover relative`}
       // style={{ backgroundImage: `url(${props.img})` }}
     >
-      <img src={`${props.img}`} className="" alt="" />
-      <div className="absolute transition-colors delay-75 z-10 top-0 w-full h-full flex flex-col justify-evenly items-center [&>*]:hidden hover:bg-black/80 hover:text-white [&>*]:hover:block ">
+      <img src={`${props.img}`} className="w-full" alt="" />
+      <div className="absolute transition-colors delay-75 z-10 top-0 w-full h-full flex flex-col justify-evenly items-center [&>*]:md:hidden bg-black/80 hover:bg-black/80 md:bg-transparent text-white [&>*]:hover:block ">
         <h4 className="font-bold">{props.title}</h4>
         <p>{props.description}</p>
         <a

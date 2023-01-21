@@ -59,7 +59,7 @@ const Gallery = () => {
   }
 
   return (
-    <div className="flex flex-1 flex-col md:flex-row gap-2">
+    <div className="flex flex-1 flex-col sm:flex-row gap-2">
       <div className="flex flex-1 flex-col gap-2">{firstCol}</div>
       <div className="flex flex-1 flex-col gap-2">{secondCol}</div>
     </div>
