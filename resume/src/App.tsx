@@ -5,6 +5,7 @@ import DownloadResume from "./components/Buttons/DownloadResume";
 import ProgressBars from "./components/ProgressBar/ProgressBars";
 import SocialIcons from "./components/Social/SocialIcons";
 import GithubRepo from "./components/Buttons/GithubRepo";
+import Gallery from "./components/Gallery/Gallery";
 
 function App() {
   return (
@@ -57,7 +58,7 @@ function App() {
               </div>
               <hr />
             </div>
-            <div></div>
+            <Gallery />
           </div>
         </div>
       </div>
