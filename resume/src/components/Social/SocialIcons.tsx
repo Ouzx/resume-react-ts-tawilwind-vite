@@ -9,7 +9,7 @@ import SocialButton from "./SocialButton";
 
 const SocialIcons = () => {
   return (
-    <div className="flex justify-evenly items-center">
+    <div className="print:hidden flex justify-evenly items-center">
       <SocialButton Icon={FaFacebookF} link="https://facebook.com" />
       <SocialButton Icon={FaTwitter} link="https://twitter.com" />
       <SocialButton Icon={FaLinkedin} link="https://linkedin.com" />

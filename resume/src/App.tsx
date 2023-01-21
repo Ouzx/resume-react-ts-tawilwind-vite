@@ -29,7 +29,7 @@ function App() {
             <div className="p-5 shadow-2xl bg-white lg:mt-3">
               <BadgeList />
             </div>
-            <div className="p-5 shadow-2xl bg-white lg:mt-3 flex flex-wrap justify-center items-center">
+            <div className="print:hidden p-5 shadow-2xl bg-white lg:mt-3 flex flex-wrap justify-center items-center">
               <DownloadResume />
               <div className="lg:mt-3 lg:ml-0 ml-3">
                 <GithubRepo />
