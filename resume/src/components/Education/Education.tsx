@@ -2,7 +2,7 @@ import React from "react";
 import TimeBar from "../TimeBar";
 const Education = () => {
   return (
-    <div>
+    <div className="mb-7">
       <h1 className="font-black mb-12">{"Education"}</h1>
       <TimeBar
         date="2018 - 2022"

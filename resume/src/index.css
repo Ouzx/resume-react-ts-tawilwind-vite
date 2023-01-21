@@ -33,4 +33,11 @@
     /* background: #000; */
     translate: 0 1.5rem;
   }
+
+  .fixed-bg {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+  }
 }
