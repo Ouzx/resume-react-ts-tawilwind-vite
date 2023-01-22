@@ -1,5 +1,6 @@
 export interface Resume {
   ProfilePic: string;
+  ProfilePicHover: string;
   Name: string;
   BirthDate: string;
   JobTitle: string;

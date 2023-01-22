@@ -1,5 +1,6 @@
 {
     "ProfilePic": "PP.png",
+    "ProfilePicHover": "PP-glassed.png",
     "Name": "John Doe",
     "BirthDate": "1990-01-01",
     "JobTitle": "Full Stack Developer",
@@ -8,7 +9,7 @@
         "twitter": "https://twitter.com/johndoe",
         "linkedin": "https://linkedin.com/in/johndoe",
         "github": "https://github.com/johndoe",
-        "email": "https://johndoe@email.com",
+        "email": "mailto:johndoe@email.com",
         "twitch": "https://twitch.tv/johndoe",
         "youtube": "https://youtube.com/johndoe"
     },
