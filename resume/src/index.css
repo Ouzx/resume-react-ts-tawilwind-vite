@@ -40,4 +40,43 @@
     background-position: center;
     background-size: cover;
   }
+
+  .clip-ex {
+    clip-path: inset(0.01rem);
+    /* clip-path: polygon(
+      0 0,
+      300px 0,
+      300px 300px,
+      0 300px,
+      0 0,
+      30px 30px,
+      150px 150px,
+      270px 30px,
+      30px 30px
+    ); */
+  }
+  .infscroll {
+    animation: animation1 60s ease infinite alternate none;
+  }
+  .infscroll2 {
+    animation: animation2 60s ease infinite alternate none;
+  }
+
+  @keyframes animation1 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(42rem);
+    }
+  }
+
+  @keyframes animation2 {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-42rem);
+    }
+  }
 }
