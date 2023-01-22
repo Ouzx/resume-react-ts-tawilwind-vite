@@ -1,14 +1,25 @@
 import React from "react";
 import TimeBar from "../TimeBar";
+import { DataContext } from "../../DataContext";
 const Education = () => {
+  const data = React.useContext(DataContext);
+
+  let education: JSX.Element[] = [];
+  for (let i = 0; i < data?.Education?.length; i++) {
+    let item = (
+      <TimeBar
+        date={data.Education[i].date}
+        title={data.Education[i].title}
+        description={data.Education[i].description}
+      />
+    );
+    education.push(item);
+  }
+
   return (
     <div className="mb-7">
       <h1 className="font-black mb-12">{"Education"}</h1>
-      <TimeBar
-        date="2018 - 2022"
-        title="KIRIKKALE University"
-        description="Bachelor of Science in Computer Science and Engineering"
-      />
+      {education}
     </div>
   );
 };

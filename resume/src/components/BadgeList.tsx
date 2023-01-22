@@ -1,5 +1,4 @@
 import React from "react";
-import Masky from "../assets/masky.svg";
 
 const tagStyle = "mr-1 mb-1 hover:scale-125 transform duration-300";
 

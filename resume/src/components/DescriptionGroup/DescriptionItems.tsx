@@ -1,19 +1,18 @@
 import React from "react";
 import DescriptionItem from "./DescriptionItem";
+import { DataContext } from "../../DataContext";
 
 const DescriptionItems = () => {
+  const data = React.useContext(DataContext);
   return (
     <div className="flex-1">
       <h2 className="text-thinText mb-8">personal information</h2>
-      <DescriptionItem title="FULL NAME" value="Ola Maria Lowe" />
-      <DescriptionItem title="D.O.B." value="05 Sep 1986" />
-      <DescriptionItem
-        title="ADDRESS"
-        value="24058, Belgium, Brussels, Liutte 27, BE"
-      />
-      <DescriptionItem title="E-MAIL" value="support@px-lab.com" />
-      <DescriptionItem title="PHONE" value="+1 256 254 84 56" />
-      <DescriptionItem title="FREELANCE" value="Available" />
+      <DescriptionItem title="FULL NAME" value={data.Name} />
+      <DescriptionItem title="D.O.B." value={data.BirthDate} />
+      <DescriptionItem title="ADDRESS" value={data.Contact?.address} />
+      <DescriptionItem title="E-MAIL" value={data.Contact?.email} />
+      <DescriptionItem title="PHONE" value={data.Contact?.phone} />
+      <DescriptionItem title="Open For Work" value="Yes" />
     </div>
   );
 };

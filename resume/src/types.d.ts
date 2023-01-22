@@ -1,6 +1,7 @@
 export interface Resume {
   ProfilePic: string;
   Name: string;
+  BirthDate: string;
   JobTitle: string;
   Social: {
     facebook?: string;
@@ -38,6 +39,7 @@ export interface Resume {
     title: string;
     description: string;
     link: string;
+    img: string;
   }[];
   Languages: {
     title: string;
