@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="relative bg-hero fixed-bg">
       <div className="bg-hero-pattern bg-cover bg-left-bottom bg-no-repeat bg-fixed">
-        <div className="mx-auto lg:p-8 flex flex-col lg:flex-row justify-evenly items-start max-w-7xl">
+        <div className="mx-auto lg:p-14 flex flex-col lg:flex-row justify-evenly items-start max-w-7xl">
           <div className="shrink-0 lg:sticky md:top-8 w-full lg:mr-2 lg:max-w-[18rem] ">
             <div className="p-5 hover:bg-white transition-colors delay-75 bg-[#c0e3e7] shadow-2xl">
               <img
