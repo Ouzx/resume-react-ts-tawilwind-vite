@@ -1,3 +1,6 @@
+import React from "react";
+import { DataContext } from "./DataContext";
+
 import BadgeList from "./components/BadgeList";
 // import CircularBars from "./components/Circular/CircularBars";
 import DescriptionItems from "./components/DescriptionGroup/DescriptionItems";
@@ -9,6 +12,8 @@ import Gallery from "./components/Gallery/Gallery";
 import Education from "./components/Education/Education";
 
 function App() {
+  const data = React.useContext(DataContext);
+  // console.log(data.JobTitle);
   return (
     <div className="relative bg-hero fixed-bg">
       <div className="bg-hero-pattern bg-cover bg-left-bottom bg-no-repeat bg-fixed">

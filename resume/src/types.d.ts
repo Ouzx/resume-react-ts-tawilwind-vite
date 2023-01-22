@@ -1,0 +1,51 @@
+export interface Resume {
+  ProfilePic: string;
+  Name: string;
+  JobTitle: string;
+  Social: {
+    facebook?: string;
+    twitter?: string;
+    linkedin?: string;
+    github?: string;
+    email?: string;
+    twitch?: string;
+    youtube?: string;
+  };
+  HI: string;
+  Description: string;
+  Contact: {
+    email: string;
+    phone: string;
+    address: string;
+  };
+  Skills: {
+    title: string;
+    percent: number;
+  }[];
+  Experience: {
+    title: string;
+    company: string;
+    date: string;
+    description: string;
+  }[];
+  Education: {
+    title: string;
+    company: string;
+    date: string;
+    description: string;
+  }[];
+  Projects: {
+    title: string;
+    description: string;
+    link: string;
+  }[];
+  Languages: {
+    title: string;
+    percent: number;
+  }[];
+  Certifications: {
+    title: string;
+    date: string;
+    description: string;
+  }[];
+}

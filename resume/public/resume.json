@@ -1,0 +1,91 @@
+{
+    "ProfilePic": "image.jpg",
+    "Name": "John Doe",
+    "JobTitle": "Full Stack Developer",
+    "Social": {
+        "facebook": "facebook.com/johndoe",
+        "twitter": "twitter.com/johndoe",
+        "linkedin": "linkedin.com/in/johndoe",
+        "github": "github.com/johndoe",
+        "email": "johndoe@email.com",
+        "twitch": "twitch.tv/johndoe",
+        "youtube": "youtube.com/johndoe"
+    },
+    "HI": "Hello, my name is John Doe and I am a full stack developer.",
+    "Description": "I am a recent graduate with a strong background in full stack web development. Proficient in a variety of technologies including JavaScript, React, Node.js and experienced in developing web applications with a focus on user experience. Strong problem-solving skills and ability to work in a team environment.",
+    "Contact": {
+        "email": "johndoe@email.com",
+        "phone": "555-555-5555",
+        "address": "123 Main St, Anytown USA"
+    },
+    "Skills": [
+        {
+            "title": "JavaScript",
+            "percent": 85
+        },
+        {
+            "title": "React",
+            "percent": 80
+        },
+        {
+            "title": "Node.js",
+            "percent": 75
+        }
+    ],
+    "Experience": [
+        {
+            "title": "Full Stack Developer",
+            "company": "ABC Company",
+            "date": "January 2020 - Present",
+            "description": "Working on developing and maintaining web applications using JavaScript, React, and Node.js."
+        },
+        {
+            "title": "Web Developer Intern",
+            "company": "DEF Company",
+            "date": "June 2019 - December 2019",
+            "description": "Assisted in the development and maintenance of web applications using JavaScript and React."
+        }
+    ],
+    "Education": [
+        {
+            "title": "Bachelor of Computer Science",
+            "company": "University of XYZ",
+            "date": "2016 - 2020",
+            "description": "Completed coursework in web development, software engineering, and computer science."
+        }
+    ],
+    "Projects": [
+        {
+            "title": "Personal Portfolio Website",
+            "description": "Developed a personal portfolio website using React and Node.js",
+            "link": "https://johndoe.com"
+        },
+        {
+            "title": "E-commerce Website",
+            "description": "Developed an e-commerce website using JavaScript, React, and Node.js",
+            "link": "https://shop.johndoe.com"
+        }
+    ],
+    "Languages": [
+        {
+            "title": "English",
+            "percent": 100
+        },
+        {
+            "title": "German",
+            "percent": 50
+        }
+    ],
+    "Certifications": [
+        {
+            "title": "Certified React Developer",
+            "date": "January 2021",
+            "description": "Certification in React development from XYZ organization"
+        },
+        {
+            "title": "Certified Node.js Developer",
+            "date": "May 2020",
+            "description": "Certification in Node.js development from ABC organization"
+        }
+    ]
+}
