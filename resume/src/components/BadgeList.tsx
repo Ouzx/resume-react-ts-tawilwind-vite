@@ -239,7 +239,7 @@ const Badges = () => {
 
 const BadgeList = () => {
   return (
-    <div>
+    <div className="overflow-clip">
       <h2 className="text-center text-thinText font-bold mb-1">Tech Stack</h2>
       <hr className="mb-3" />
       <div className="clip-ex">
