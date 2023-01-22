@@ -1,6 +1,7 @@
 import React from "react";
 import Masky from "../assets/masky.svg";
-const tagStyle = "mr-1 mb-1";
+
+const tagStyle = "mr-1 mb-1 hover:scale-125 transform duration-300";
 
 const Badges = () => {
   let badges = [
@@ -240,7 +241,7 @@ const Badges = () => {
 const BadgeList = () => {
   return (
     <div>
-      <h2 className="text-center text-thinText font-bold mb-1">Tag Pool</h2>
+      <h2 className="text-center text-thinText font-bold mb-1">Tech Stack</h2>
       <hr className="mb-3" />
       <div className="clip-ex">
         <div className="flex flex-1 animate-[animation1_80s_ease_infinite_alternate_none] justify-center">
