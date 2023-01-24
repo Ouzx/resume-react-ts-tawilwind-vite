@@ -25,7 +25,9 @@ const TimeBar = (props: TimeBarProps) => {
       <div className="h-1 w-1 min-w-[0.25rem] min-h-[0.25rem] shrink-0 hidden md:block bg-black ml-7 mr-3"></div>
       <div>
         <h2 className="font-black mt-4 sm:mt-0">{props.title}</h2>
-        <p>{props.description}</p>
+        {props.description.split("/n").map((line) => (
+          <p>{line}</p>
+        ))}
       </div>
       <hr className="block my-4" />
     </div>
