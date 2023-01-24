@@ -241,7 +241,9 @@ const Badges = () => {
 const BadgeList = () => {
   return (
     <div className="overflow-clip">
-      <h2 className="text-center text-thinText font-bold mb-1">Tech Stack</h2>
+      <h2 className="text-center text-thinText font-bold mb-1">
+        My Tech Stack
+      </h2>
       <hr className="mb-3" />
       <div className="clip-ex">
         <div className="flex animate-[animation1_100s_infinite_alternate_none] justify-center">
