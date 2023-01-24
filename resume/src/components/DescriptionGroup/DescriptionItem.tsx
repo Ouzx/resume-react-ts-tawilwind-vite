@@ -5,7 +5,7 @@ const DescriptionItem: React.FC<{ title: string; value: string }> = ({
   value,
 }) => {
   return (
-    <div className="sm:flex mb-3">
+    <div className="mb-3">
       <div className="shrink-0 font-black w-28 text-xs">{title}</div>
       <div className="shrink-0 w-48 text-sm">{value}</div>
     </div>
