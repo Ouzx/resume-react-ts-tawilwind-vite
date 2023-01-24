@@ -51,5 +51,6 @@ export interface Resume {
     title: string;
     date: string;
     description: string;
+    company: string;
   }[];
 }
