@@ -83,4 +83,17 @@
       transform: translateX(-42rem);
     }
   }
+
+  .bgPulse {
+    animation: bgPulse 8s ease-in-out infinite alternate;
+  }
+
+  @keyframes bgPulse {
+    0% {
+      background-color: #c0e3e7;
+    }
+    100% {
+      background-color: #fff;
+    }
+  }
 }
