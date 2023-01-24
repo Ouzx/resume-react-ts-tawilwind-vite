@@ -13,6 +13,7 @@ const Experience = () => {
         title={data.Experience[i].title}
         company={data.Experience[i].company}
         description={data.Experience[i].description}
+        key={i + "*exp"}
       />
     );
     experience.push(item);
