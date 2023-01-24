@@ -58,7 +58,7 @@ function App() {
 
             {/* Third Block */}
             <Education />
-            <hr className="mb-14" />
+            <hr className="mb-7" />
 
             {/* Fourth Block */}
             <Experience />
