@@ -14,6 +14,7 @@ import Hero from "./components/Hero";
 import Intro from "./components/Intro";
 import Experience from "./components/Experience/Experience";
 import Certificates from "./components/Certificates/Certificates";
+import Projects from "./components/Projects/Projects";
 
 function App() {
   const data = React.useContext(DataContext);
@@ -62,14 +63,18 @@ function App() {
             <hr className="mb-7" />
 
             {/* Fourth Block */}
-            <Experience />
+            <Projects />
             <hr className="mb-7" />
 
             {/* Fifth Block */}
+            <Experience />
+            <hr className="mb-7" />
+
+            {/* Sixth Block */}
             <Certificates />
             <hr className="mb-14" />
 
-            {/* Sixth Block */}
+            {/* Seventh Block */}
             <Gallery />
 
             <hr />
