@@ -11,6 +11,7 @@ const Experience = () => {
       <TimeBar
         date={data.Experience[i].date}
         title={data.Experience[i].title}
+        company={data.Experience[i].company}
         description={data.Experience[i].description}
       />
     );

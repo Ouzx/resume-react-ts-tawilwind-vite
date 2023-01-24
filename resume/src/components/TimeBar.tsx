@@ -3,12 +3,16 @@ import React from "react";
 interface TimeBarProps {
   date: string;
   title: string;
+  company: string;
   description: string;
 }
 
 const TimeBar = (props: TimeBarProps) => {
   return (
-    <div className="p-4 pt-0 md:flex items-center ">
+    <div className="p-4 pt-0 relative md:flex items-center ">
+      <div className="md:absolute -top-1">
+        <h3 className="font-black">{props.company}</h3>
+      </div>
       <div
         className={`min-w-[10rem] hover:animate-bounce mb-3 md:mb-0 md:w-[40%] h-8 shrink-0 z-10 bg-accent px-2 py-1 text-center text-sm relative`}
       >

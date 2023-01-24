@@ -10,6 +10,7 @@ const Education = () => {
       <TimeBar
         date={data.Education[i].date}
         title={data.Education[i].title}
+        company={data.Education[i].company}
         description={data.Education[i].description}
       />
     );
