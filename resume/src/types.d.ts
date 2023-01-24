@@ -35,6 +35,7 @@ export interface Resume {
     company: string;
     date: string;
     description: string;
+    GPA: string;
   }[];
   Projects: {
     title: string;

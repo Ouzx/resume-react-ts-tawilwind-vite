@@ -12,6 +12,7 @@ const Education = () => {
         title={data.Education[i].title}
         company={data.Education[i].company}
         description={data.Education[i].description}
+        afterText={data.Education[i].GPA}
       />
     );
     education.push(item);

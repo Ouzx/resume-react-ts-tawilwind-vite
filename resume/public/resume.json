@@ -48,9 +48,10 @@
     "Education": [
         {
             "title": "Bachelor of Computer Science",
-            "company": "University of XYZ",
-            "date": "2016 - 2020",
-            "description": "Completed coursework in web development, software engineering, and computer science."
+            "company": "University of KIRIKKALE",
+            "date": "2018 - 2022",
+            "description": "Completed coursework in web development, software engineering, and computer science.",
+            "GPA": "GPA: 3.09"
         }
     ],
     "Projects": [

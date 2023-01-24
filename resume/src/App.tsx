@@ -35,7 +35,7 @@ function App() {
             </div>
           </div>
 
-          <div className="bg-white shrink w-full lg:max-w-[50rem] px-10 py-5 border-0 md:border">
+          <div className="bg-white shrink w-full lg:max-w-[50rem] px-10 py-5 border-0 lg:border print:border-0">
             {/* First Block */}
             <div className="mb-7">
               <Intro />
