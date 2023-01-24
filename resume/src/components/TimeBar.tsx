@@ -8,6 +8,10 @@ interface TimeBarProps {
   afterText?: string;
 }
 
+const randomKey = () => {
+  return Math.random().toString(36).substring(7);
+};
+
 const TimeBar = (props: TimeBarProps) => {
   return (
     <div className="p-4 pt-0 relative md:flex items-center ">
@@ -26,7 +30,9 @@ const TimeBar = (props: TimeBarProps) => {
       <div>
         <h2 className="font-black mt-4 sm:mt-0">{props.title}</h2>
         {props.description.split("/n").map((line) => (
-          <p>{line}</p>
+          <p className="mb-1 " key={randomKey()}>
+            {line}
+          </p>
         ))}
       </div>
       <hr className="block my-4" />

@@ -16,22 +16,60 @@ const SocialIcons = () => {
     let social = [];
     if (data.Social?.facebook)
       social.push(
-        <SocialButton Icon={FaFacebookF} link={data.Social.facebook} />
+        <SocialButton
+          Icon={FaFacebookF}
+          link={data.Social.facebook}
+          key={data.Social.facebook}
+        />
       );
     if (data.Social?.twitter)
-      social.push(<SocialButton Icon={FaTwitter} link={data.Social.twitter} />);
+      social.push(
+        <SocialButton
+          Icon={FaTwitter}
+          link={data.Social.twitter}
+          key={data.Social.twitter}
+        />
+      );
     if (data.Social?.linkedin)
       social.push(
-        <SocialButton Icon={FaLinkedin} link={data.Social.linkedin} />
+        <SocialButton
+          Icon={FaLinkedin}
+          link={data.Social.linkedin}
+          key={data.Social.linkedin}
+        />
       );
     if (data.Social?.twitch)
-      social.push(<SocialButton Icon={FaTwitch} link={data.Social.twitch} />);
+      social.push(
+        <SocialButton
+          Icon={FaTwitch}
+          link={data.Social.twitch}
+          key={data.Social.twitch}
+        />
+      );
     if (data.Social?.youtube)
-      social.push(<SocialButton Icon={FaYoutube} link={data.Social.youtube} />);
+      social.push(
+        <SocialButton
+          Icon={FaYoutube}
+          link={data.Social.youtube}
+          key={data.Social.youtube}
+        />
+      );
     if (data.Social?.github)
-      social.push(<SocialButton Icon={FaGithub} link={data.Social.github} />);
+      social.push(
+        <SocialButton
+          Icon={FaGithub}
+          link={data.Social.github}
+          key={data.Social.github}
+        />
+      );
     if (data.Social?.email)
-      social.push(<SocialButton Icon={AiFillMail} link={data.Social.email} />);
+      social.push(
+        <SocialButton
+          Icon={AiFillMail}
+          link={data.Social.email}
+          key={data.Social.email}
+        />
+      );
     return social;
   };
 
