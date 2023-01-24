@@ -15,7 +15,7 @@ const TimeBar = (props: TimeBarProps) => {
         {props.date}
         <div className="w-[1.35rem] h-[1.35rem] -z-[1] bg-accent absolute top-[0.352rem] -right-[0.7rem] rotate-45"></div>
       </div>
-      <div className="h-1 w-1 shrink-0 hidden md:block bg-black ml-7 mr-3"></div>
+      <div className="h-1 w-1 min-w-[0.25rem] min-h-[0.25rem] shrink-0 hidden md:block bg-black ml-7 mr-3"></div>
       <div>
         <h2 className="font-black mt-4 sm:mt-0">{props.title}</h2>
         <p>{props.description}</p>

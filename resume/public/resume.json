@@ -1,24 +1,21 @@
 {
     "ProfilePic": "PP.png",
     "ProfilePicHover": "PP-glassed.png",
-    "Name": "John Doe",
-    "BirthDate": "1990-01-01",
+    "Name": "Oguzhan Kandakoglu",
+    "BirthDate": "11 - 24 -1999",
     "JobTitle": "Full Stack Developer",
     "Social": {
-        "facebook": "https://facebook.com/johndoe",
-        "twitter": "https://twitter.com/johndoe",
-        "linkedin": "https://linkedin.com/in/johndoe",
-        "github": "https://github.com/johndoe",
-        "email": "mailto:johndoe@email.com",
-        "twitch": "https://twitch.tv/johndoe",
-        "youtube": "https://youtube.com/johndoe"
+        "linkedin": "https://linkedin.com/in/ozxk",
+        "twitter": "https://twitter.com/Ozx_K",
+        "github": "https://github.com/Ouzx",
+        "email": "mailto:oguzhankandakoglu@gmail.com"
     },
-    "HI": "Hello, my name is John Doe and I am a full stack developer.",
+    "HI": "Hello, I'm Oğuz",
     "Description": "I am a recent graduate with a strong background in full stack web development. Proficient in a variety of technologies including JavaScript, React, Node.js and experienced in developing web applications with a focus on user experience. Strong problem-solving skills and ability to work in a team environment.",
     "Contact": {
-        "email": "johndoe@email.com",
-        "phone": "555-555-5555",
-        "address": "123 Main St, Anytown USA"
+        "email": "oguzhankandakoglu@gmail.com",
+        "phone": "(+90)-546-488-9884",
+        "address": "06930 Ankara, Turkey"
     },
     "Skills": [
         {
