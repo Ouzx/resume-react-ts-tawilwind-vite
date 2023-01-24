@@ -20,15 +20,15 @@
     "Skills": [
         {
             "title": "JavaScript",
-            "percent": 85
+            "percent": 60
         },
         {
             "title": "React",
-            "percent": 80
+            "percent": 90
         },
         {
             "title": "Node.js",
-            "percent": 75
+            "percent": 70
         }
     ],
     "Experience": [
