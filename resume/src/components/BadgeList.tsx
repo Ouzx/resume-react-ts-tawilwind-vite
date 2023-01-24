@@ -1,6 +1,7 @@
 import React from "react";
 
-const tagStyle = "mr-1 mb-1 hover:scale-125 transform duration-300";
+const tagStyle =
+  "mr-1 mb-1 hover:scale-125 hover:ml-2 hover:mr-3 transform duration-300";
 
 const Badges = () => {
   let badges = [
@@ -243,43 +244,43 @@ const BadgeList = () => {
       <h2 className="text-center text-thinText font-bold mb-1">Tech Stack</h2>
       <hr className="mb-3" />
       <div className="clip-ex">
-        <div className="flex flex-1 animate-[animation1_80s_ease_infinite_alternate_none] justify-center">
+        <div className="flex animate-[animation1_100s_infinite_alternate_none] justify-center">
           <Badges key={"badges1"} />
         </div>
       </div>
 
       <div className="clip-ex">
-        <div className="flex flex-1 animate-[animation2_100s_ease_infinite_alternate_none] justify-center">
+        <div className="flex animate-[animation2_120s_infinite_alternate_none] justify-center">
           <Badges key={"badges2"} />
         </div>
       </div>
 
       <div className="clip-ex">
-        <div className="flex flex-1 animate-[animation2_90s_ease_infinite_alternate_none] justify-center">
+        <div className="flex animate-[animation2_110s_infinite_alternate_none] justify-center">
           <Badges key={"badges3"} />
         </div>
       </div>
 
       <div className="clip-ex">
-        <div className="flex flex-1 animate-[animation2_100s_ease_infinite_alternate_none] justify-center">
+        <div className="flex animate-[animation2_130s_infinite_alternate_none] justify-center">
           <Badges key={"badges4"} />
         </div>
       </div>
 
       <div className="clip-ex">
-        <div className="flex flex-1 animate-[animation1_80s_ease_infinite_alternate_none] justify-center">
+        <div className="flex animate-[animation1_100s_infinite_alternate_none] justify-center">
           <Badges key={"badges5"} />
         </div>
       </div>
 
       <div className="clip-ex">
-        <div className="flex flex-1 animate-[animation2_110s_ease_infinite_alternate_none] justify-center">
+        <div className="flex animate-[animation2_140s_infinite_alternate_none] justify-center">
           <Badges key={"badges6"} />
         </div>
       </div>
 
       <div className="clip-ex">
-        <div className="flex flex-1 animate-[animation1_120s_ease_infinite_alternate_none] justify-center">
+        <div className="flex animate-[animation1_150s_infinite_alternate_none] justify-center">
           <Badges key={"badges7"} />
         </div>
       </div>
