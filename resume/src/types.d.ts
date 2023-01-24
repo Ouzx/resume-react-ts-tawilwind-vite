@@ -37,6 +37,12 @@ export interface Resume {
     description: string;
     GPA: string;
   }[];
+  ProjectList: {
+    title: string;
+    description: string;
+    link: string;
+    img: string;
+  }[];
   Projects: {
     title: string;
     description: string;

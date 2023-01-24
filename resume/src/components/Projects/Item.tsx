@@ -14,7 +14,9 @@ const Item = ({ title, description, link, image }: Props) => {
         <img
           src={image}
           alt={title}
-          className={"sm:w-[12rem] h-[12rem] mr-6 object-cover sm:rounded-3xl"}
+          className={
+            "sm:w-[12rem] h-[12rem] sm:shadow-xl sm:border mr-6 object-cover sm:rounded-3xl"
+          }
         />
         <div>
           <h2 className="font-black titlePulse mb-3">{title}</h2>

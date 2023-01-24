@@ -66,6 +66,14 @@
             "company": "Microsoft"
         }
     ],
+    "ProjectList": [
+        {
+            "title": "INHALT CMS | Full Stack React Project",
+            "description": "Inhalt CMS is a content management system that allows you to create and manage your website with typescript. It is built with React, and Tailwind CSS.",
+            "link": "https://github.com/Ouzx/inhalt-cms",
+            "img": "inhalt.png"
+        }
+    ],
     "Projects": [
         {
             "title": "INHALT CMS | Full Stack React Project",
