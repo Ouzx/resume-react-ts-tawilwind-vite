@@ -13,7 +13,7 @@ const Projects = () => {
         image="inhalt.png"
         link="https://github.com/Ouzx/inhalt-cms"
       />
-      <hr className="my-4" />
+      {/* <hr className="my-4" /> */}
     </div>
   );
 };
