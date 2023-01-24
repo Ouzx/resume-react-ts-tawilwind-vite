@@ -11,7 +11,7 @@ interface TimeBarProps {
 const TimeBar = (props: TimeBarProps) => {
   return (
     <div className="p-4 pt-0 relative md:flex items-center ">
-      <div className={`md:absolute bottom-3/4 text-start`}>
+      <div className={`md:absolute bottom-3/4 text-start titlePulse`}>
         <h3 className="font-black">{props.company}</h3>
         <p className="text-xs font-black">{props.afterText}</p>
       </div>
