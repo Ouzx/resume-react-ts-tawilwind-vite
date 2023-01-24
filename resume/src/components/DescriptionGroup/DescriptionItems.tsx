@@ -18,7 +18,13 @@ const DescriptionItems = () => {
       <a href={`tel:+${phoneNum}`}>
         <DescriptionItem title="PHONE" value={data.Contact?.phone} />
       </a>
-      <DescriptionItem title="Open For Work" value="Yes" />
+      <a
+        href={data.Social?.linkedin!}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <DescriptionItem title="Open For Work" value="Yes" />
+      </a>
     </div>
   );
 };
