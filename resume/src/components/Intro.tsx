@@ -5,7 +5,9 @@ const Intro = () => {
   return (
     <>
       <h1 className="font-thin hello mb-12">{data.HI}</h1>
-      <p className="mb-14 text-darkText">{data.Description}</p>
+      <p className="mb-14 text-darkText text tracking-wider leading-7">
+        {data.Description}
+      </p>
     </>
   );
 };
