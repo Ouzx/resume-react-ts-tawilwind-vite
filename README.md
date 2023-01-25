@@ -59,6 +59,8 @@ Also you can set a web hook for builds.
 
 This page is also responsive for printing. You just need to row spacing after you make changes. You can download a pdf copy of your site with that. If you put your pdf in the `public` directory. It will be downloadable via `Download Resume` button at the sidebar. You should add your pdf file name to `resume.json` file. With the `ResumeFileName` property.
 
+Or you can just paste your pdf link to `ResumeFileName` property. It will be downloadable via `Download Resume` button at the sidebar.
+
 ## Contact
 
 If you have any questions or would like to get in touch, please reach out to me at oguzhankandakoglu@gmail.com
