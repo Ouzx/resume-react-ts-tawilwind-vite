@@ -57,7 +57,7 @@ Also you can set a web hook for builds.
 
 ## PDF Printing
 
-This page is also responsive for printing. You just need to row spacing after you make changes. You can download a pdf copy of your site with that. If you put your pdf in the `public` directory with the name `resume.pdf`. It will be downloadable via `Download Resume` button at the sidebar.
+This page is also responsive for printing. You just need to row spacing after you make changes. You can download a pdf copy of your site with that. If you put your pdf in the `public` directory. It will be downloadable via `Download Resume` button at the sidebar. You should add your pdf file name to `resume.json` file. With the `ResumeFileName` property.
 
 ## Contact
 
