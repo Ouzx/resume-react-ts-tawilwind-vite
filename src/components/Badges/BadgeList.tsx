@@ -2,8 +2,9 @@ import React from "react";
 import badges from "./badges";
 
 const Badges = () => {
+  const badgeCopy = [...badges];
   // return random badges in empty fragment
-  return <>{badges.sort(() => Math.random() - 0.5)}</>;
+  return <>{badgeCopy.sort(() => Math.random() - 0.5)}</>;
 };
 
 const BadgeList = () => {
