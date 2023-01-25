@@ -15,7 +15,7 @@ const Item = ({ title, description, link, image }: Props) => {
           src={image}
           alt={title}
           className={
-            "sm:w-[12rem] h-[12rem] sm:shadow-xl sm:border mr-6 object-cover sm:rounded-3xl"
+            "sm:w-[12rem] h-[12rem] sm:shadow-xl sm:border mr-6 object-cover object-left sm:rounded-3xl"
           }
         />
         <div>

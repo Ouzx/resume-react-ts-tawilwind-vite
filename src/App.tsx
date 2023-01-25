@@ -30,7 +30,6 @@ function App() {
               <SocialIcons />
             </div>
             <div className="p-5 shadow-2xl bg-white lg:mt-3">
-              {/* <BadgeList /> */}
               <BadgeListOrdered />
             </div>
             <div className="print:hidden gap-2 p-5 shadow-2xl bg-white lg:mt-3 flex flex-wrap justify-center items-center">
@@ -78,8 +77,10 @@ function App() {
 
             {/* Seventh Block */}
             <Gallery />
+            <hr className="mb-28" />
 
-            <hr />
+            {/* Eighth Block */}
+            <BadgeList />
           </div>
         </div>
       </div>
