@@ -1,6 +1,6 @@
 # React Resume
 
-This is a React-based, open-source resume project that uses Vite, Tailwind, and GitHub Actions. The project is designed to be easily customizable for personal use and serves as a simple portfolio website.
+This project is a React-based, open-source resume template designed to be easily customizable for personal use. It uses Vite, Tailwind and GitHub Actions, and it serves as a simple portfolio website. The project includes sections for your personal information, education, work experience, skills, and additional information such as languages and certifications. The design is clean and minimal, making it easy to read and navigate. The template can be easily customized to fit your personal brand and style.
 
 ## Live Demo
 
