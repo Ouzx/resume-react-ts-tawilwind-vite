@@ -73,12 +73,11 @@ function App() {
 
             {/* Sixth Block */}
             <Certificates />
-            <hr className="mb-14" />
+            <hr className="mb-14 print:mb-16" />
 
             {/* Seventh Block */}
             <Gallery />
-            <hr className="mb-28" />
-
+            <hr className="print:hidden mb-28" />
             {/* Eighth Block */}
             <BadgeList />
           </div>

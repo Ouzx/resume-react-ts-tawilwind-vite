@@ -9,7 +9,7 @@ const Badges = () => {
 
 const BadgeList = () => {
   return (
-    <div className="overflow-clip">
+    <div className="overflow-clip print:hidden">
       <h2 className="text-center text-thinText font-bold mb-1">
         My Tech Stack
       </h2>
