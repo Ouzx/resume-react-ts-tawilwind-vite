@@ -26,7 +26,7 @@ const Item = ({ title, description, link, image }: Props) => {
               href={link}
               target="_blank"
               rel="noopener noreferrer"
-              className="bg-black text-white flex items-center max-w-fit p-2 rounded-lg mt-3"
+              className="print:hidden bg-black text-white flex items-center max-w-fit p-2 rounded-lg mt-3"
             >
               <button>
                 <FaGithub className="inline-block mr-2" />

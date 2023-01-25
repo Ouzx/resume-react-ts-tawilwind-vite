@@ -11,6 +11,11 @@
     box-sizing: border-box;
   }
 
+  .printMe {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
   .hello {
     font-family: "Pacifico", cursive;
   }
