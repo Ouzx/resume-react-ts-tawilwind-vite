@@ -1,11 +1,13 @@
-import React from "react";
+import React, { useContext } from "react";
+import { DataContext } from "../../DataContext";
 import { AiOutlineDownload } from "react-icons/ai";
-import resume from "../../public/OguzhanKandakoglu-Resume.pdf";
+
 const DownloadResume = () => {
+  const data = useContext(DataContext);
   return (
     <a
       className="inline-block font-bold border-2 transition-colors delay-75 border-accent   hover:bg-accent rounded-md p-2"
-      href="/OguzhanKandakoglu-Resume.pdf"
+      href={data?.ResumeFileName!}
       target={"_blank"}
     >
       <button className="flex items-center  ">

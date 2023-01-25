@@ -4,6 +4,7 @@ export interface Resume {
   Name: string;
   BirthDate: string;
   JobTitle: string;
+  ResumeFileName: string;
   Social: {
     facebook?: string;
     twitter?: string;
