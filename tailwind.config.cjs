@@ -9,7 +9,7 @@ module.exports = {
 
     extend: {
       backgroundImage: {
-        "hero-pattern": "url('./hero-bg.svg')",
+        "hero-pattern": "url('/hero-bg.svg')",
       },
       colors: {
         primary: "#06F8B8",
