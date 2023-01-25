@@ -48,6 +48,9 @@ npm install && npm run build
 I used Github Actions for that. If you fork it properly it will triggered after every push. Builded website will be available at the `gh-pages` branch.
 Also you can set a web hook for builds.
 
+## PDF Printing
+This page is also responsive for printing. You just need to row spacing after you make changes. You can download a pdf copy of your site with that. If you put your pdf in the `public` directory with the name `resume.pdf`. It will be downloadable via `Download PDF` button at the sidebar.
+
 ## Contact
 
 If you have any questions or would like to get in touch, please reach out to me at oguzhankandakoglu@gmail.com
