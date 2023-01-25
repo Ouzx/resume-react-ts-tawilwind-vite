@@ -1,7 +1,8 @@
 import React from "react";
 import { DataContext } from "./DataContext";
 
-import BadgeList from "./components/BadgeList";
+import BadgeList from "./components/Badges/BadgeList";
+import BadgeListOrdered from "./components/Badges/BadgeListOrdered";
 // import CircularBars from "./components/Circular/CircularBars";
 import DescriptionItems from "./components/DescriptionGroup/DescriptionItems";
 import DownloadResume from "./components/Buttons/DownloadResume";
@@ -23,13 +24,14 @@ function App() {
     <div className="relative bg-hero fixed-bg">
       <div className="bg-hero-pattern bg-cover bg-left-bottom bg-no-repeat bg-fixed">
         <div className="mx-auto lg:p-14 flex flex-col lg:flex-row justify-evenly items-start max-w-7xl">
-          <div className="shrink-0 lg:sticky md:top-8 w-full lg:mr-2 lg:max-w-[18rem] ">
+          <div className="shrink-0 w-full lg:mr-2 lg:max-w-[18rem] ">
             <div className="p-5 hover:bg-white bgPulse transition-colors delay-75 bg-[#c0e3e7] shadow-2xl">
               <Hero />
               <SocialIcons />
             </div>
             <div className="p-5 shadow-2xl bg-white lg:mt-3">
-              <BadgeList />
+              {/* <BadgeList /> */}
+              <BadgeListOrdered />
             </div>
             <div className="print:hidden gap-2 p-5 shadow-2xl bg-white lg:mt-3 flex flex-wrap justify-center items-center">
               <DownloadResume />

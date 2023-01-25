@@ -9,7 +9,7 @@ const GithubRepo = () => {
       target={"_blank"}
     >
       <button className="flex items-center  ">
-        <span className="inline-block w-[15ch]">Github Repo</span>
+        <span className="inline-block w-[15ch]">Project Repo</span>
         <AiFillGithub className="ml-2" />
       </button>
     </a>

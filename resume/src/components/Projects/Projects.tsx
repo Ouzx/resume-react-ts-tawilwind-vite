@@ -13,10 +13,10 @@ const Projects = () => {
         image="inhalt.png"
         link="https://github.com/Ouzx/inhalt-cms"
       /> */}
-      {data.ProjectList.map((project, index) => (
+      {data.ProjectList?.map((project, index) => (
         <>
           <Item
-            key={index}
+            key={"projectListz" + index + "z"}
             title={project.title}
             description={project.description}
             image={project.img}
